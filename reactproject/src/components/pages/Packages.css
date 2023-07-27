@@ -1,0 +1,74 @@
+/* Packages.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.visa {
+  background-image: url('../../../public/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.visa h1 {
+  font-size: 3rem;
+}
+
+.packages {
+  background-image: url('../../../public/images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.packages h1 {
+  font-size: 3rem;
+}
+
+.packages h2 {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.sign-up {
+  background-image: url('/C:/Users/eshma/OneDrive/Desktop/ReactProject/reactproject/public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* App.css */
+
+/* Container for the entire content */
+.app-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Other styles for the application (excluding login form) */
+/* ... Add other global styles here as needed ... */
